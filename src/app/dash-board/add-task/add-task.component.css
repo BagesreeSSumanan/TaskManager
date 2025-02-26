@@ -1,0 +1,7 @@
+
+.add-task{
+    display:flex;
+    align-items:center;
+    gap:5px;
+    margin:30px 0px;
+}

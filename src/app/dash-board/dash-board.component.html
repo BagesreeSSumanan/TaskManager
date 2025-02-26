@@ -1,0 +1,9 @@
+<h1 class="dashborad-h">Task Manager</h1>
+<div class = "container">
+    <add-task (taskAdded)="addtask($event)"></add-task>
+    <ul style="padding-left:0px;" >
+        <li class="taskList" *ngFor="let item of taskList;let i = index">{{item}}
+            <button class="btn btn-danger" (click)="deleteTask(i)">Delete</button>
+        </li>
+    </ul>
+</div>
